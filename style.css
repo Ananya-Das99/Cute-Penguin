@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: pink;
+}
+.penguin {
+  background-color: pink;
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 5%;
+  width: 300px;
+  height: 300px;
+}
+.penguin-top {
+  height: 155px;
+  width: 150px;
+  background-color: rgb(70, 68, 68);
+  margin-left: 31%;
+  margin-top: 29%;
+  border-radius: 70% 70% 60% 60%;
+}
+.penguin-bottom {
+  position: absolute;
+  top: 24%;
+  height: 150px;
+  width: 147px;
+  background-color:rgb(70, 68, 68);
+  margin-left: 32%;
+  border-radius: 60% 60% 70% 70%;
+}
+.right-hand {
+  height: 57%;
+  width: 30%;
+  background-color: rgb(70, 68, 68);
+  margin-left: -10%;
+  margin-top: 10%;
+  border-radius: 30% 30% 120% 30%;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+.left-hand {
+  height: 57%;
+  width: 35%;
+  background-color: rgb(70, 68, 68);
+  margin-left: 77%;
+  margin-top: -58%;
+  border-radius: 30% 40% 30% 120%;
+  transform: rotate(-45deg);
+  z-index: -1;
+}
+.right-feet {
+  height: 35%;
+  width: 24%;
+  background-color: orange;
+  margin-left: 14%;
+  margin-top: 10%;
+  border-radius: 50% 50% 50% 50%;
+  transform: rotate(-110deg);
+  z-index: -2222;
+}
+.left-feet {
+  height: 35%;
+  width: 24%;
+  background-color: orange;
+  margin-left: 55%;
+  margin-top: -36%;
+  border-radius: 50% 50% 50% 50%;
+  transform: rotate(110deg);
+  z-index: -2222;
+}
+.right-cheek {
+  position: absolute;
+  right: 40%;
+  background: white;
+  width: 25%;
+  height: 30%;
+  margin-top: -42.3%;
+  margin-left: 39%;
+  border-radius: 100% 100% 100% 100%;
+}
+.left-cheek {
+  position: absolute;
+  background: white;
+  width: 23%;
+  height: 30%;
+  margin-top: -43%;
+  margin-left: 54%;
+  border-radius: 100% 100% 100% 100%;
+}
+.belly {
+  position: absolute;
+  margin-top: -23%;
+  height: 130px;
+  width: 130px;
+  background-color: white;
+  margin-left: 35%;
+  border-radius: 180% 180% 130% 130%;
+  transform: rotate(180deg);
+}
+.right-eye {
+  position: absolute;
+  top: 21%;
+  left: 60%;
+  background: black;
+  width: 7%;
+  height: 7%;
+  border-radius: 50%;
+}
+.left-eye {
+  position: absolute;
+  margin-top: -30%;
+  margin-left: 45%;
+  background: black;
+  width: 7%;
+  height: 7%;
+  border-radius: 60%;
+}
+.sparkle {
+  margin-top: 34%;
+  margin-left: 21%;
+  background: white;
+  width: 35%;
+  height: 35%;
+  border-radius: 50%;
+}
+.blush-right {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  background: pink;
+  width: 9%;
+  height: 4%;
+  border-radius: 50%;
+}
+.blush-left {
+  position: absolute;
+  top: 30%;
+  left: 63%;
+  background: pink;
+  width: 9%;
+  height: 4%;
+  border-radius: 50%;
+}
+.beak-top {
+  position: absolute;
+  top: 26%;
+  left: 54.4%;
+  background: orange;
+  width: 3%;
+  height: 9%;
+  border-radius: 50%;
+  transform: rotate(90deg);
+}
+
+.beak-bottom {
+  position: absolute;
+  top: 30%;
+  left: 52%;
+  background: orange;
+  width: 8%;
+  height: 4%;
+  border-radius: 50%;
+}
